@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <string.h>
 
-/*============     Shell_Init       ==============*/
+/*============     Shell_Init  ==============*/
 
 int main(int ac, char **av, char **env);
 void prompt(void);
@@ -16,10 +16,14 @@ void handle(int signals);
 void _EOF(char *buffer);
 void shell_exit(char **command);
 
-/*============     xxxxxxxxxx       ==============*/
+/*============     child       ==============*/
+
+void child(char **command, char *name, char **env, int cicles);
+int change_dir(const char *path);
+
+/*============     xxxxx       ==============*/
 
 
-
-/*============ END      ==============*/
+/*============        END      ==============*/
 
 #endif /* _SHELL_H_ */
