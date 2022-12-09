@@ -30,3 +30,33 @@ The shell is a command-line interpreter or shell that provides a command line us
 
 -   Unless specified otherwise, your program  **must have the exact same output**  as  `sh`  (`/bin/sh`) as well as the exact same error output.
 -   The only difference is when you print an error, the name of the program must be equivalent to your  `argv[0]`
+
+|Function|Description  |
+|--|--|
+|shell_star.c|
+|main | Function that runs the shell|
+|prompt | Function that prints the prompt|
+|_EOF (End Of Life)| Checks if the buffer is EOF|
+|shell_exit | Function that exits the Shell|
+| create_child.c | Creates a subprocess |
+|create_chile.c | Function which creates a subprocess|
+|change_dir|Function that changes the working directory|
+| execute.c| Executes the commands|
+|execute| Executes a command|
+|print_env| It prints all the environmental variables|
+|_getPATH| A function that gets the full value from environment variable PATH|
+|msgerror| Prints the message not found|
+|tokening.c||
+|tokening| A function that splits and creates a full string command|
+|free_mem.c||
+|free_dp| a function that frees all the allocated memory|
+|command|
+|free_exit| a function that frees all the memory allocated and exits|
+|auxiliar_funtions.c||
+|_strcmp| it compares two strings|
+|_strlen| a function that finds the length of the string|
+|_strcpy| a function that copies the string to another string|
+|strcat| a function that concatenates two strings|
+|_atoi|a function that converts a string to an integer|
+|--|--|
+
