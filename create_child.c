@@ -38,7 +38,7 @@ void create_child(char **command, char *name, char **env, int cicles)
 
 
 /**
-  * change_dir - Afunction that changes working directory.
+  * change_dir - A function that changes working directory.
   * @path: The new current working directory.
   * Return: 0 on success, -1 on failure.
   */

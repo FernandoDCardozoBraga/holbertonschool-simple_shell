@@ -35,7 +35,7 @@ int main(int ac, char **av, char **env)
 			else if (_strcmp(command[0], "cd") != 0)
 				change_dir(command[1]);
 			else
-				child(command, av[0], env, cicles);
+			create_child (command, av[0], env, cicles);
 		}
 		fflush(stdin);
 		buffer = NULL, buf_size = 0;
