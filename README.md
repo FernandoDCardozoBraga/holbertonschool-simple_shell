@@ -1,3 +1,5 @@
+![Diseño sin título](https://user-images.githubusercontent.com/113741582/206869489-a8729d0e-89f7-4c3c-8066-51f6b160979b.png)
+
 # Simple Shell
 
 This project is the most important of the first trimester of Holberton School, is the consolidation of everything we learned in the quarter about System engineering & DevOps and Low-level programming & Algorithm. Using C programming language, we develop our own Shell.
@@ -60,7 +62,8 @@ The shell is a command-line interpreter or shell that provides a command line us
 |_atoi|a function that converts a string to an integer|
 |--|--|
 
-The next steps are a brief description about how the shell works:
+##The next steps are a brief description about how the shell works:
+--
 
 1. First, the parent process is created when the user runs the program.
 2. Then, the isatty() function using STDIN_FILENO file descriptor -fd- to tests if there is an open file descriptor referring to a terminal. If isatty() returns 1, the prompt is shown using write() with STDOUT_FILENO as fd and waits for an input user command line.
